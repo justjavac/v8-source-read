@@ -10,5 +10,5 @@ var a = { prop: 'a' };
 var b = { prop: 1 };
 
 for (i = 0; i < length; i++) {
-    add(i !== 8000 ? b : b);
+    add(i !== 8000 ? a : b);
 }
